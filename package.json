@@ -1,0 +1,24 @@
+{
+  "name": "storefront",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-plugin-graphql-js-client-transform": "^1.1.0",
+    "graphql-js-client": "^0.6.1",
+    "react": "^15.6.0",
+    "react-apollo": "^1.4.2",
+    "react-dom": "^15.6.0",
+    "react-router": "^4.1.2",
+    "react-router-dom": "^4.1.2"
+  },
+  "devDependencies": {
+    "graphql-js-schema": "^0.6.0",
+    "react-scripts": "1.0.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
